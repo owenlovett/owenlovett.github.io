@@ -1,0 +1,103 @@
+header, nav, footer { /* Requirement-2.B */
+    text-align: center; /* Requirement-2.2 */
+}
+
+h1 { /* Requirement-2.A */
+    font-family:'Courier New', Courier, monospace /* Requirement-2.1 */
+}
+
+footer {
+    margin-top: 50px; /* Requirement-2.6 */
+}
+
+.background {
+    background-color: lightsteelblue; /* Requirement-2.4 */
+}
+
+.texture {
+    background-image: url("background.jpeg");
+}
+
+body.guts {
+    background-image: url("guts.jpeg");
+    background-size: cover;
+}
+
+footer p { /* Requirement-2.F */
+    font-style: italic;
+}
+
+a:hover { /* Requirement-2.E */
+    color: springgreen; /* Requirement-2.3 */
+}
+
+div.container {
+    text-align: center;
+}
+
+table, td {
+    display: inline-block;
+    border: 1px solid; /* Requirement-2.5 */
+}
+
+details { /* Requirement-2.G */
+    border: 1px solid #aaa;
+    border-radius : 4px;
+}
+
+summary { /* Requirement-2.H */
+    font-weight: bold;
+}
+
+img.pochita {
+    height: 30%; /* Requirement-2.7 */
+    width: 10%; /* Requirement-2.10 */
+    float: right; /* Requirement-2.11 */
+    position: absolute; /* Requirement-2.15 */
+    padding-left: 20px; /* Requirement-2.9 */
+    z-index: -1; /* Requirement-2.17 */
+}
+
+p.clear {
+    clear: right; /* Requirement-2.13 */
+}
+
+p.hidden {
+    visibility: hidden; /* Requirement-2.16 */
+}
+
+.unordered { /* Requirement-2.C */
+    display: inline-block; /* Requirement-2.12 */
+    list-style-type: square; /* Requirement-2.8 */
+    text-align: left;
+}
+
+.ordered {
+    display: inline-block;
+    text-align: left;
+}
+
+#millie { /* Requirement-2.D */
+    height: 40%;
+    width: 30%;
+}
+
+#green {
+    color:green;
+}
+
+#gold {
+    color:gold;
+}
+
+#About_Me, #Lists, #Recipe {
+    text-align: center;
+}
+
+#anime {
+    background-color: lightcoral;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: scroll; /* Requirement-2.14 */
+}
